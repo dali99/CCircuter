@@ -9,3 +9,13 @@ RESISTOR fUnWthOhm(RESISTOR r)
         
     return r;
 }
+
+RESISTOR resetOhm()
+{
+    RESISTOR r;
+    r.R = 0;
+    r.I = 0;
+    r.U = 0;
+    
+    return r;
+}
