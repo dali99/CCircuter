@@ -5,3 +5,7 @@ typedef struct
     float R;
 }
 RESISTOR;
+
+
+void fUnWthOhm(RESISTOR* r);
+void resetOhm(RESISTOR* r);
