@@ -3,6 +3,5 @@
 
 int main(void)
 {
-    RESISTOR r1;
-    resetOhm(&r1);
+
 }
