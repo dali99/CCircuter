@@ -14,5 +14,5 @@ typedef struct
 }
 LINE;
 
-void fUnWthOhm(RESISTOR* r);
+void fUnWthOhm(RESISTOR* r, int* successptr);
 void resetOhm(RESISTOR* r);
